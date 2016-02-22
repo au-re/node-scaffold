@@ -1,0 +1,33 @@
+{
+  "name": "node-bootstrap",
+  "version": "0.1.0",
+  "description": "Bootstrap development with a simple structure for you nodejs code",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon",
+    "test": "node_modules/.bin/mocha",
+    "generate-doc": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/au-re/"
+  },
+  "keywords": [
+    "template",
+    "npm",
+    "package"
+  ],
+  "author": "Aurélien Franky <gushonau@student.gu.se> (https://au-re.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/au-re/"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jsdoc": "^3.4.0",
+    "minami": "^1.1.1",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.9.0",
+    "sinon": "^1.17.3"
+  }
+}
