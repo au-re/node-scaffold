@@ -1,16 +1,18 @@
 {
   "name": "node-scaffold",
-  "version": "0.1.0",
   "description": "Bootstrap development with a simple structure for your node module",
   "main": "src/index.js",
+  "version": "0.0.0-semantically-released",
   "scripts": {
     "start": "node_modules/.bin/nodemon",
     "test": "node_modules/.bin/mocha",
-    "generate-doc": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose"
+    "commit": "git-cz",
+    "generate-doc": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/au-re/node-scaffold"
+    "url": "https://github.com/au-re/node-scaffold"
   },
   "keywords": [
     "template",
@@ -24,10 +26,16 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "commitizen": "^2.5.0",
+    "cz-conventional-changelog": "^1.1.5",
     "jsdoc": "^3.4.0",
     "minami": "^1.1.1",
     "mocha": "^2.4.5",
     "nodemon": "^1.9.0",
+    "semantic-release": "^4.3.5",
     "sinon": "^1.17.3"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
