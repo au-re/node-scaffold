@@ -2,7 +2,7 @@
 
 const should        = require('chai').should(),
       sinon         = require('sinon'),
-      Scaffold = require('../../src/index');
+      scaffold = require('../../src/index');
 
 /**
  *  NodeBootstrap Specs
@@ -10,7 +10,7 @@ const should        = require('chai').should(),
  *  
  */
 
-describe('Scaffold', function(){
+describe('Scaffold Core', function(){
   
   before(function() {
     // setup all tests
@@ -27,8 +27,8 @@ describe('Scaffold', function(){
   describe('when doing something simple', function(){
     
     it('should simply do it', function() {
-      let t = true;
-      t.should.be.true;
+      let answer = scaffold.myFunction();
+      answer.should.be.equal("42!");
     });
     
   });

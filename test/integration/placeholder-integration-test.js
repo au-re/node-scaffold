@@ -1,7 +1,7 @@
 'use strict';
 
 const should        = require('chai').should(),
-      Scaffold = require('../../src/index');
+      scaffold = require('../../src/index');
 
 /**
  *  NodeBootstrap Specs
@@ -9,7 +9,7 @@ const should        = require('chai').should(),
  *  
  */
 
-describe('Scaffold', function(){
+describe('Scaffold System', function(){
   
   before(function() {
     // setup all tests
@@ -26,8 +26,8 @@ describe('Scaffold', function(){
   describe('its many components', function(){
     
     it('should play along nicely', function() {
-      let t = true;
-      t.should.be.true;
+      let answer = scaffold.myFunction();
+      answer.should.be.equal("42!");
     });
     
   });
