@@ -1,7 +1,7 @@
 {
-  "name": "node-bootstrap",
+  "name": "lib-template",
   "version": "0.1.0",
-  "description": "Bootstrap development with a simple structure for you nodejs code",
+  "description": "Bootstrap development with a simple template for youre nodejs library",
   "main": "src/index.js",
   "scripts": {
     "start": "node_modules/.bin/nodemon",
@@ -15,7 +15,7 @@
   "keywords": [
     "template",
     "npm",
-    "package"
+    "library"
   ],
   "author": "Aurélien Franky <gushonau@student.gu.se> (https://au-re.com)",
   "license": "ISC",
