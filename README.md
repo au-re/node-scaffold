@@ -2,6 +2,9 @@ Node Scaffold
 =========
 
 [![TravisCI Build Status][travis-img]][travis-url]
+[![Dependency Status](https://david-dm.org/au-re/node-scaffold.svg)](https://david-dm.org/au-re/node-scaffold)
+[![devDependency Status](https://david-dm.org/au-re/node-scaffold/dev-status.svg)](https://david-dm.org/au-re/node-scaffold#info=devDependencies)
+
 
 A simple node module structure to bootstrap developement, doesn't use any frameworks.
 
