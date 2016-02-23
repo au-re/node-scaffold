@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node_modules/.bin/nodemon",
     "test": "istanbul cover -x *.test.js _mocha",
-    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "report-coverage": "cat coverage/lcov.info | node_modules/.bin/codecov",
     "commit": "git-cz",
     "generate-doc": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
