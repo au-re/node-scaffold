@@ -36,7 +36,7 @@
     "sinon": "^1.17.3"
   },
   "config": {
-    "commitizen":{
+    "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
   }
