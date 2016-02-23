@@ -1,7 +1,8 @@
 {
   "name": "nodelib-scaffold",
-  "description": "Bootstrap development with a simple structure for your node module",
+  "description": "Bootstrap development with a simple structure for your node module or library",
   "main": "src/index.js",
+  "version": "0.0.0-semantically-released",
   "scripts": {
     "start": "node_modules/.bin/nodemon",
     "test": "node_modules/.bin/mocha",
