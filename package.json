@@ -5,7 +5,8 @@
   "version": "0.0.0-semantically-released",
   "scripts": {
     "start": "node_modules/.bin/nodemon",
-    "test": "node_modules/.bin/mocha",
+    "test": "istanbul cover -x *.test.js _mocha",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
     "commit": "git-cz",
     "generate-doc": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
@@ -26,9 +27,11 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "codecov.io": "^0.1.6",
     "commitizen": "^2.5.0",
     "cz-conventional-changelog": "^1.1.5",
     "ghooks": "^1.0.3",
+    "istanbul": "^0.4.2",
     "jsdoc": "^3.4.0",
     "minami": "^1.1.1",
     "mocha": "^2.4.5",
