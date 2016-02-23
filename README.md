@@ -7,7 +7,8 @@ Node Scaffold
 A simple node module structure to bootstrap developement, doesn't use any frameworks.
 
 ## Installation
-To get the structure run `npm install node-bootstrap`.
+To get the structure run `git clone https://github.com/au-re/node-scaffold.git`.
+
 To generate the documentation run `npm run doc`.
   
 ## Usage
