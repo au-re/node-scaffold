@@ -6,27 +6,28 @@ Nodelib Scaffold
 [![devDependency Status][dev-dependencies-img]][dev-dependencies-url]
 [![Commitizen friendly][commitizen-img]][commitizen-url]
 [![semantic-release][semantic-release-img]][semantic-release-url]
+[![codecov.io][code-coverage-img]][code-coverage-url]
 
 A simple node module structure to bootstrap your library developement, without 
 any framework. It includes all the tools you need for documentation and testing.
 
-## Installation
-To get the structure run `git clone https://github.com/au-re/nodelib-scaffold.git`.
+## Requirements
+You will need [Node.js](http://nodejs.org/download/) installed.  
 
-Install the dependencies by navigating to the root folder and running
-`npm install`. To make the most out of this scaffold, install the semantic release client
-globally as follow: `npm install semantic-release-cli -g`. In the root folder run
-`semantic-release-cli setup` and follow the instructions. 
+To make the most out of this scaffold, you will also need to install the 
+semantic release client globally as follow: `npm install semantic-release-cli -g`. 
+In the root folder run `semantic-release-cli setup` and follow the instructions.
 
 You can find more about semantic-release 
 [here](https://github.com/semantic-release/semantic-release).
 
+## Installation
+To get the structure run `git clone https://github.com/au-re/nodelib-scaffold.git`.
+Install the dependencies by navigating to the root folder and running `npm install`. 
+
 Feel free to modify the structure according to your needs. Do not forget to replace all 
-links to TravisCI and Github in the `readme.md` and `package.json` files with the 
-links to your repository.
-
-## Technologies
-
+badges and links in the `readme.md` and `package.json` files with the 
+links to your repository and badges.
 
 ## Documentation
 The documentation uses [JsDoc](http://usejsdoc.org/about-getting-started.html) 
@@ -38,7 +39,8 @@ in the folder `doc`.
 The tests are run using [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/). 
 To run the tests simply execute `npm test` in the root folder. The test coverage
 is calculated using [Istanbul](https://gotwarlost.github.io/istanbul/), 
-a coverage report is generated in the folder `coverage`.
+a coverage report is generated in the folder `coverage`. The coverage can be 
+uploaded to [covercov](https://codecov.io/).
 
 ## Commits
 Semantic release uses a specific format for git commits. This scaffold uses 
@@ -64,3 +66,5 @@ This software is licensed under the [ISC](LICENSE) license
 [commitizen-url]: http://commitizen.github.io/cz-cli/
 [semantic-release-img]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-release-url]: https://github.com/semantic-release/semantic-release
+[code-coverage-img]: https://codecov.io/github/au-re/nodelib-scaffold/coverage.svg?branch=master
+[code-coverage-url]: https://codecov.io/github/au-re/nodelib-scaffold?branch=master
