@@ -1,7 +1,6 @@
 Node Scaffold
 =========
 
-[![NPM Version][npm-img]][npm-url]
 [![TravisCI Build Status][travis-img]][travis-url]
 
 A simple node module structure to bootstrap developement, doesn't use any frameworks.
@@ -21,4 +20,4 @@ To run the tests simply execute `npm test` in the root folder
 [ISC](LICENSE)
 
 [travis-img]: https://travis-ci.org/au-re/node-scaffold.svg?branch=master
-[travis-url]: https://travis-ci.org/
+[travis-url]: https://travis-ci.org/au-re/node-scaffold

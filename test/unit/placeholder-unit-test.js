@@ -2,7 +2,7 @@
 
 const should        = require('chai').should(),
       sinon         = require('sinon'),
-      NodeBootstrap = require('../../src/node-bootstrap');
+      Scaffold = require('../../src/index');
 
 /**
  *  NodeBootstrap Specs
@@ -10,7 +10,7 @@ const should        = require('chai').should(),
  *  
  */
 
-describe('NodeBootstrap', function(){
+describe('Scaffold', function(){
   
   before(function() {
     // setup all tests
