@@ -16,17 +16,13 @@ module.exports = {
    *  @return {string} - returns the string "42!"
    *    
    *  @example
-   *  >>> const scaffold = require('node-scaffold');
+   *  >>> const scaffold = require('nodelib-scaffold');
    *  >>> scaffold.myFunction("What is the Answer to the Ultimate Question of 
    *  ... Life, the Universe, and Everything?");
-   * 
    *  "42!"
    * 
    */
   myFunction: function myFunction(question) {
-    
-    console.log("Tough question!.. come back in 7.5 million years");
-    
     let answer = 42 + "!";
     return answer;
   }
