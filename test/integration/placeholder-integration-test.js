@@ -1,7 +1,7 @@
 'use strict';
 
-const should        = require('chai').should(),
-      scaffold = require('../../src/index');
+const should    = require('chai').should(),
+      scaffold  = require('../../src/index');
 
 /**
  *  NodeBootstrap Specs

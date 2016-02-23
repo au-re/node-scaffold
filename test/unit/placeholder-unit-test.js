@@ -1,7 +1,7 @@
 'use strict';
 
-const should        = require('chai').should(),
-      sinon         = require('sinon'),
+const should   = require('chai').should(),
+      sinon    = require('sinon'),
       scaffold = require('../../src/index');
 
 /**
