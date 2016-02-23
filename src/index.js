@@ -29,5 +29,13 @@ module.exports = {
     
     let answer = 42 + "!";
     return answer;
+  },
+  
+  myOtherFunction: function myOtherFunction(question) {
+    
+    console.log("Tough question!.. come back in 7.5 million years");
+    
+    let answer = 42 + "!";
+    return answer;
   }
 };
