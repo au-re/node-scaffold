@@ -25,7 +25,7 @@ module.exports = {
    */
   myFunction: function myFunction(question) {
     
-    console.log("tough question!.. come back in 7.5 million years");
+    console.log("Tough question!.. come back in 7.5 million years");
     
     let answer = 42 + "!";
     return answer;
