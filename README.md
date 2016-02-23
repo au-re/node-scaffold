@@ -1,4 +1,4 @@
-Node Bootstrap
+Node Scaffold
 =========
 
 [![NPM Version][npm-img]][npm-url]
@@ -19,7 +19,5 @@ To run the tests simply execute `npm test` in the root folder
 ## License
 [ISC](LICENSE)
 
-[npm-img]: https://img.shields.io/npm/v/nodebootstrap.svg?style=flat
-[npm-url]: https://www.npmjs.com/package/nodebootstrap
-[travis-img]: https://travis-ci.org/inadarei/nodebootstrap.svg?branch=master
-[travis-url]: https://travis-ci.org/inadarei/nodebootstrap
+[travis-img]: https://travis-ci.org/au-re/node-scaffold.svg?branch=master
+[travis-url]: https://travis-ci.org/
