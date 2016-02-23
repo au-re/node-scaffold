@@ -1,7 +1,7 @@
 {
-  "name": "lib-template",
+  "name": "node-scaffold",
   "version": "0.1.0",
-  "description": "Bootstrap development with a simple template for youre nodejs library",
+  "description": "Bootstrap development with a simple structure for your node module",
   "main": "src/index.js",
   "scripts": {
     "start": "node_modules/.bin/nodemon",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/au-re/"
+    "url": "git://github.com/au-re/node-scaffold"
   },
   "keywords": [
     "template",
@@ -20,7 +20,7 @@
   "author": "Aurélien Franky <gushonau@student.gu.se> (https://au-re.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/au-re/"
+    "url": "https://github.com/au-re/node-scaffold/issues"
   },
   "devDependencies": {
     "chai": "^3.5.0",
