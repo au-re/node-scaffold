@@ -2,7 +2,7 @@
 
 /**
  *  Entry point to your node module
- *  @module NodeScaffold
+ *  @module NodelibScaffold
  * 
  */
 module.exports = {

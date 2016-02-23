@@ -1,4 +1,4 @@
-Node Scaffold
+Nodelib Scaffold
 =========
 
 [![TravisCI Build Status][travis-img]][travis-url]

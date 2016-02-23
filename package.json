@@ -1,5 +1,5 @@
 {
-  "name": "node-scaffold",
+  "name": "nodelib-scaffold",
   "description": "Bootstrap development with a simple structure for your node module",
   "main": "src/index.js",
   "version": "0.0.0-semantically-released",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/au-re/node-scaffold"
+    "url": "https://github.com/au-re/nodelib-scaffold"
   },
   "keywords": [
     "template",
@@ -22,7 +22,7 @@
   "author": "Aurélien Franky <gushonau@student.gu.se> (https://au-re.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/au-re/node-scaffold/issues"
+    "url": "https://github.com/au-re/nodelib-scaffold/issues"
   },
   "devDependencies": {
     "chai": "^3.5.0",
